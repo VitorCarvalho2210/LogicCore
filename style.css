@@ -61,10 +61,10 @@ body {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    object-fit: contain;
+    height: 50px; /* Define uma altura fixa para padronizar a navbar */
+    width: auto;   /* Largura automática para manter a proporção */
+    margin-right: 12px;
+    display: block;
 }
 
 .logo span {
