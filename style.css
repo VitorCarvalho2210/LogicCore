@@ -60,16 +60,11 @@ body {
     letter-spacing: -0.5px;
 }
 
-.logo::before {
-    content: "";
-    display: inline-block;
-    width: 40px; /* Ajuste o tamanho conforme necessário */
+.logo img {
+    width: 40px;
     height: 40px;
-    background-image: url('imagens_site/logo.png'); /* Caminho corrigido para a pasta imagens_site */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-right: 10px;
+    object-fit: contain;
 }
 
 .logo span {
